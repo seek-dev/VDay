@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             guide.style.opacity = "0"; 
             setTimeout(() => {
                 letter.style.opacity = "1";
-            }, 1000); 
+            }, 2000); 
         }
     }
 
