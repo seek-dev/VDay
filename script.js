@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!document.querySelector('.blob')) {
             guide.style.animation = "none"; 
             guide.style.opacity = "0"; 
-            letter.style.opacity = "1";
+            setTimeout(() => {
+                letter.style.opacity = "1";
+            }, 1000); 
         }
     }
 
